@@ -22,9 +22,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		E8B58CAA1CCA125C001B8E13 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B58CA91CCA125C001B8E13 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8B58CB31CCA1290001B8E13 /* HalloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B58CB11CCA1290001B8E13 /* HalloWorld.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8B58CB41CCA1290001B8E13 /* HalloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B58CB21CCA1290001B8E13 /* HalloWorld.m */; };
+		E89740E91CCFA1D1001779EF /* HalloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = E89740E61CCFA1D1001779EF /* HalloWorld.h */; };
+		E89740EA1CCFA1D1001779EF /* HalloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = E89740E71CCFA1D1001779EF /* HalloWorld.m */; };
+		E89740EB1CCFA1D1001779EF /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E89740E81CCFA1D1001779EF /* TestFramework.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E89740E61CCFA1D1001779EF /* HalloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalloWorld.h; sourceTree = "<group>"; };
+		E89740E71CCFA1D1001779EF /* HalloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalloWorld.m; sourceTree = "<group>"; };
+		E89740E81CCFA1D1001779EF /* TestFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		E8B58CA61CCA125C001B8E13 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8B58CA91CCA125C001B8E13 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		E8B58CAB1CCA125C001B8E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8B58CB11CCA1290001B8E13 /* HalloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalloWorld.h; sourceTree = "<group>"; };
-		E8B58CB21CCA1290001B8E13 /* HalloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HalloWorld.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +56,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E89740E51CCFA1D1001779EF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E89740E61CCFA1D1001779EF /* HalloWorld.h */,
+				E89740E71CCFA1D1001779EF /* HalloWorld.m */,
+				E89740E81CCFA1D1001779EF /* TestFramework.h */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
 		E8B58C9C1CCA125C001B8E13 = {
 			isa = PBXGroup;
 			children = (
@@ -75,10 +86,8 @@
 		E8B58CA81CCA125C001B8E13 /* TestFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E8B58CA91CCA125C001B8E13 /* TestFramework.h */,
+				E89740E51CCFA1D1001779EF /* Classes */,
 				E8B58CAB1CCA125C001B8E13 /* Info.plist */,
-				E8B58CB11CCA1290001B8E13 /* HalloWorld.h */,
-				E8B58CB21CCA1290001B8E13 /* HalloWorld.m */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -90,8 +99,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B58CB31CCA1290001B8E13 /* HalloWorld.h in Headers */,
-				E8B58CAA1CCA125C001B8E13 /* TestFramework.h in Headers */,
+				E89740E91CCFA1D1001779EF /* HalloWorld.h in Headers */,
+				E89740EB1CCFA1D1001779EF /* TestFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,7 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B58CB41CCA1290001B8E13 /* HalloWorld.m in Sources */,
+				E89740EA1CCFA1D1001779EF /* HalloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +369,7 @@
 				E8B58CB01CCA125C001B8E13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8B58CEA1CCA22E1001B8E13 /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
 			isa = XCConfigurationList;
@@ -368,6 +378,7 @@
 				E8B58CEC1CCA22E1001B8E13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
