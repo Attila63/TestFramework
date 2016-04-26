@@ -11,5 +11,6 @@
 @interface HalloWorld : NSObject
 
 - (void) foo;
+- (void) foo2;
 
 @end
