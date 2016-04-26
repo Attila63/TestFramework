@@ -20,4 +20,9 @@
     NSLog(@"hallo world - foo2");
 }
 
+- (void) foo3
+{
+    NSLog(@"hallo world - foo3");
+}
+
 @end
