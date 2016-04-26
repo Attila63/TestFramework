@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/HalloWorld.h</key>
+		<data>
+		jjceKGNdiR8VjY98HWLlxKWbbgY=
+		</data>
+		<key>Headers/TestFramework.h</key>
+		<data>
+		sFxxi2WQoPx3/3IjFtbUHoM/pf8=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		1u3i17DbsJsyKBbLuTrUdvPFaqk=
@@ -15,6 +23,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/HalloWorld.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jjceKGNdiR8VjY98HWLlxKWbbgY=
+			</data>
+			<key>hash2</key>
+			<data>
+			VlLwt3A0987v+acTY2SkUzfJP0+6WHs980ch6miSi/k=
+			</data>
+		</dict>
+		<key>Headers/TestFramework.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sFxxi2WQoPx3/3IjFtbUHoM/pf8=
+			</data>
+			<key>hash2</key>
+			<data>
+			ed3boHwdQYLuc1CFZNOUjseTRcuXv+Q20yU4SJ8zgo4=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>

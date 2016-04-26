@@ -8,8 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+//test
 @interface HalloWorld : NSObject
 
 - (void) foo;
+- (void) foo2;
+- (void) foo3;
 
 @end
