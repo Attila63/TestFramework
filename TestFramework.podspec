@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TestFramework"
-  s.version      = "100.0.3"
+  s.version      = "100.0.4"
   s.summary      = "A short description of TestFramework."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ test description
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Attila63/TestFramework.git", :tag => "100.0.3" }
+  s.source       = { :git => "https://github.com/Attila63/TestFramework.git", :tag => "100.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ test description
   #
   #s.vendored_frameworks = "Output/TestFramework-Debug-iphoneuniversal/TestFramework.framework"
   s.vendored_frameworks = "Output/TestFramework-Debug-iphoneuniversal/TestFramework.framework"
-  s.source_files  = "Output/TestFramework-Debug-iphoneuniversal/TestFramework.framework/Headers/*.{h}"
+  #s.source_files  = "Output/TestFramework-Debug-iphoneuniversal/TestFramework.framework/Headers/*.{h}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
